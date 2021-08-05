@@ -1,0 +1,48 @@
+[33mStarting up http-server, serving [39m[36m./[39m[33m[39m
+[33mAvailable on:[39m
+  http://192.168.0.159:[32m8082[39m
+  http://127.0.0.1:[32m8082[39m
+Hit CTRL-C to stop the server
+[33mStarting up http-server, serving [39m[36m./[39m[33m[39m
+[33mAvailable on:[39m
+  http://192.168.0.159:[32m8082[39m
+  http://127.0.0.1:[32m8082[39m
+Hit CTRL-C to stop the server
+[33mStarting up http-server, serving [39m[36m./[39m[33m[39m
+[33mAvailable on:[39m
+  http://192.168.0.159:[32m8082[39m
+  http://127.0.0.1:[32m8082[39m
+Hit CTRL-C to stop the server
+[33mStarting up http-server, serving [39m[36m./[39m[33m[39m
+[33mAvailable on:[39m
+  http://192.168.0.159:[32m8082[39m
+  http://127.0.0.1:[32m8082[39m
+Hit CTRL-C to stop the server
+[33mStarting up http-server, serving [39m[36m./[39m[33m[39m
+[33mAvailable on:[39m
+  http://192.168.0.159:[32m8082[39m
+  http://127.0.0.1:[32m8082[39m
+Hit CTRL-C to stop the server
+[33mStarting up http-server, serving [39m[36m./[39m[33m[39m
+[33mAvailable on:[39m
+  http://192.168.0.159:[32m8082[39m
+  http://127.0.0.1:[32m8082[39m
+Hit CTRL-C to stop the server
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8082
+    at Server.setupListenHandle [as _listen2] (net.js:1317:16)
+    at listenInCluster (net.js:1365:12)
+    at doListen (net.js:1502:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1344:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8082
+}
